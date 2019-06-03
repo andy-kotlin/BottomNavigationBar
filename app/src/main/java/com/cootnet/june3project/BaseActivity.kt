@@ -31,7 +31,6 @@ abstract  class BaseActivity : AppCompatActivity(), BottomNavigationView.OnNavig
         setContentView(getContenView())
 
         val btnv = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-        select
         btnv.setOnNavigationItemSelectedListener(this)
 
     }

@@ -33,6 +33,8 @@ abstract  class BaseActivity : AppCompatActivity(), BottomNavigationView.OnNavig
         val btnv = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         btnv.setOnNavigationItemSelectedListener(this)
 
+        val s:String  = "amin uddin"
+
     }
 
     abstract fun getContenView(): Int
